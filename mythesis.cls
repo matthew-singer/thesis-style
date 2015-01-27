@@ -176,8 +176,7 @@
   \bigskip\bigskip\bigskip\bigskip
 
   \textit{by}\\[12pt]
-  {\large\textssc\@author\\[6pt]}
-  {\footnotesize\@previousdegrees}\\[12pt]
+  {\large\textssc\@author\\[12pt]}
   \bigskip
 
   \@month\ \@year\\[12pt]
