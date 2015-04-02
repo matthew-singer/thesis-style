@@ -126,7 +126,7 @@
   % read by very intelligent people, which might reflect more on them.
   \phantomsection
   \addcontentsline{toc}{chapter}{Appendices}
-  \fancyhead[LE,RO]{\footnotesize{\spacedsmallcaps{appendix \MakeTextLowercase{\thechapter}}}}}
+   \fancyhead[RO,RE]{\footnotesize\thepage}}
 
 \newcommand{\allcontents}{
 \singlespacing
@@ -147,6 +147,10 @@
 \def\institution{\gdef\@institution}
 \def\campus{\gdef\@campus}
 \def\majorprofessor{\gdef\@majorprofessor}
+\def\committeeA{\gdef\@committeeA}
+\def\committeeB{\gdef\@committeeB}
+\def\committeeC{\gdef\@committeeC}
+\def\admin{\gdef\@admin}
 
 \def\month{\gdef\@month}
 \def\year{\gdef\@year}
@@ -156,6 +160,10 @@
 \def\@faculty{College of Graduate Studies}
 \def\@campus{Moscow}
 \def\@majorprofessor{Big Deal, Ph.D.}
+\def\@committeeA{Another Big Shot, Ph.D.}
+\def\@committeeB{Challenged Your Ideas, Ph.D.}
+\def\@committeeC{Always Forget Their Name, Ph.D.}
+\def\@admin{Signed Paperwork, Ph.D.}
 
 \def\maketitle{
 \thispagestyle{empty}
@@ -180,9 +188,16 @@
   \bigskip
 
   \@month\ \@year\\[12pt]
-  \bigskip
 
-  {\textit{Major Professor: }\textsc\@majorprofessor}\\[24pt]
+  \textit{Major Professor}\\
+  {\textsc\@majorprofessor}\\[12pt]
+  \textit{Committee}\\
+  {\textsc\@committeeA}\\
+  {\textsc\@committeeB}\\
+  {\textsc\@committeeC}\\[12pt]
+  \textit{Department Administrator}\\
+  {\textsc\@admin}\\[12pt]
+
 \end{center}
 \textspacing
 \newpage
