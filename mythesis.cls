@@ -222,7 +222,7 @@
 % (chapters don't by default, as this looks ugly).  I've gone for
 % less-frequent dots here, as it looks somewhat nicer.
 \RequirePackage{titletoc}
-\titlecontents{chapter}[0pt]%
+\titlecontents{chapter}[15pt]%
 {\addvspace{.7pc}}{\sc\makebox[0pt][r]{\thecontentslabel\enspace}}%
 {\sc}{\titlerule*[1pc]{.}\contentspage}
 
