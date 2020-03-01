@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{mythesis}[2010/08/04]
+\ProvidesClass{mythesis}[2020/02/29]
 
 \RequirePackage{setspace}
 
@@ -169,7 +169,7 @@
 \thispagestyle{empty}
 \singlespacing
 \begin{center}
-  \phantom{}\vspace{40pt}
+  \phantom{}%\vspace{40pt}
   {\LARGE\spacedsmallcaps{\@title}\\}
   \bigskip\bigskip\bigskip
 
@@ -230,8 +230,8 @@
 % list of figures/tables.  Both of the labels should comfortably fit
 % into 5.5em.  There is a case that the tables should be srunk down to
 
-\titlecontents{figure}[5.5em]{}{%
-  \makebox[0pt][l]{\hspace*{-5.5em}\sc Figure \thecontentslabel\enspace}}%
+\titlecontents{figure}[6.5em]{}{%
+  \makebox[0pt][l]{\hspace*{-6.5em}\sc Figure \thecontentslabel\enspace}}%
 {}{\titlerule*[1pc]{.}\contentspage}
 
 \titlecontents{table}[5.5em]{}{%
