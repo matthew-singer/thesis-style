@@ -169,7 +169,7 @@
 \thispagestyle{empty}
 \singlespacing
 \begin{center}
-  \phantom{}%\vspace{40pt}
+  %\phantom{}\vspace{40pt}
   {\LARGE\spacedsmallcaps{\@title}\\}
   \bigskip\bigskip\bigskip
 
@@ -181,13 +181,12 @@
    \textit{in the}\\[12pt] 
     \@faculty\\[12pt]
     \@institution\\}
-  \bigskip\bigskip\bigskip\bigskip
+  \bigskip\bigskip\bigskip
 
   \textit{by}\\[12pt]
   {\large\textssc\@author\\[12pt]}
   \bigskip
 
-  \@month\ \@year\\[12pt]
 
   \textit{Major Professor}\\
   {\textsc\@majorprofessor}\\[12pt]
@@ -197,6 +196,8 @@
   {\textsc\@committeeC}\\[12pt]
   \textit{Department Administrator}\\
   {\textsc\@admin}\\[12pt]
+  \bigskip\bigskip
+    \@month\ \@year\\[12pt]
 
 \end{center}
 \textspacing
